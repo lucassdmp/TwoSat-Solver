@@ -1,4 +1,17 @@
-def simplify(C):  
+def simplify(C : list) -> list:  
+    '''
+        Receive a list as parameter, and simplify by removing atomic formulas if possible,
+        until theres no atomic formula left.
+        
+        Parameters
+        ----------
+        C : list
+            A list where each element is a formula.
+            
+        Return
+        -------
+        C -> A list containing the remaining formulas.
+    '''
     print("C to simplify: ", C) 
     i = 0
     while i < len(C):
@@ -19,6 +32,21 @@ def simplify(C):
 
 
 def twoSat(C : list):
+    '''
+        Receives a set of formula and check the satisfiability of the set.
+        
+        Parameters
+        ----------
+        C : list
+            A list C that contains all formulas.
+        
+        Return
+        ------
+        True
+            If the formula set is satisfiable.
+        False
+            If the formula set is unsatisfiable.
+    '''
     C = simplify(C)
     print("C in twoSat:", C)
     
