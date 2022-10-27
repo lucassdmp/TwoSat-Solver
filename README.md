@@ -1,24 +1,23 @@
-# Two-Sat SOLVER
----
+# TwoSat SOLVER
+
+## Logic Solver
 
 Each Number represents an atomic formula.
 
-A minus sign follow by a number represents the negation of that number.
+A minus sign followed by a number represents the negation of that number.
 
 Each line on **elems.txt** represents a formula, theres no need to write any logic OP.
 
 Formulas must be written as followed:
 
-1 
-
-1 2
-
--1 2
-
--1 -2
-
-(A single space between elements and a single **ENTER** between formulas)
-
-1) Preencha o **elems.txt** com os elementos.
-
-Ex: 
+|Formula|Elems.txt|
+|:---:|:---:|
+|P|1|
+|Q|2|
+|R|3|
+|-P|-1|
+|-Q|-2|
+|-R|-3|
+|<code> P v Q|<code> 1 2|
+|<code> Q ^(P v Q) ^ (-P V R)| <code> 2 <br> 1 2 <br> -1 3|
+# (A single space between elements and a single **ENTER** between formulas)
