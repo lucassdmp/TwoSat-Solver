@@ -12,12 +12,12 @@ Formulas must be written as followed:
 
 |Formula|Elems.txt|
 |:---:|:---:|
-|<pre>P|<pre>1|
-|<pre>Q|<pre>2|
-|<pre>R|<pre>3|
-|<pre>-P|<pre>-1|
-|<pre>-Q|<pre>-2|
-|<pre>-R|<pre>-3|
-|<pre>P v Q|<pre>1 2|
-| <pre> Q ^ (P v Q) ^ (-P V R)| <pre><code>2 <br>1 2 <br>-1 3 <code> |
+|<code>P<code>|<code>1<code>|
+|<code>Q<code>|<code>2<code>|
+|<code>R<code>|<code>3<code>|
+|<code>-P<code>|<code>-1<code>|
+|<code>-Q<code>|<code>-2<code>|
+|<code>-R<code>|<code>-3<code>|
+|<code>P v Q<code>|<code>1 2<code>|
+|<code>Q ^ (P v Q) ^ (-P V R)<code>| <code>2 <br>1 2 <br>-1 3 <code> |
 # (A single space between elements and a single **ENTER** between formulas)
