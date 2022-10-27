@@ -4,7 +4,7 @@
 
 ### Each Number represents an atomic formula.
 
-### A minus sign followed by a number represents the negation of that number.
+### A minus sign followed by a number represents the negation of that formula.
 
 ### Each line on **elems.txt** represents a formula, theres no need to write any logic OP.
 
