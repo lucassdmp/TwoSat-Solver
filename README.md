@@ -22,4 +22,4 @@
 | <pre>(P v Q) ^ (-P V R)| <pre> 1 2 **(ENTER)** -1 3|
 
 
-# (A single space between elements and a single **ENTER** between formulas)
+## (A single space between elements and a single **ENTER** between formulas)
