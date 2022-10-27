@@ -65,15 +65,15 @@ def twoSat(C : list):
     else: return True
            
 def main():
-    file = open("elems.txt", "r")
-    fSize = len(file.readlines())
-    i = 0
-    lista = []
-    file.seek(0)
-    while i < fSize:
-        lista.append(list(map(int, file.readline().split())))
-        i+=1
-    print(twoSat(lista))           
+    with open("elems.txt", "r") as file:
+        fSize = len(file.readlines())
+        i = 0
+        lista = []
+        file.seek(0)
+        while i < fSize:
+            lista.append(list(map(int, file.readline().split())))
+            i+=1
+        print(twoSat(lista))           
 
 if __name__ == "__main__":
     main()
