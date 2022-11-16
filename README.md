@@ -2,13 +2,20 @@
 
 ## How to use it:
 
-### Each Number represents an atomic formula.
+#### The first line represents the number of atoms followed by the number of formulas
 
-### A minus sign followed by a number represents the negation of that formula.
 
-### Each line on **elems.txt** represents a formula, theres no need to write any logic OP.
 
-### Formulas must be written as followed:
+#### Each Number represents an atomic formula.
+
+
+
+#### A minus sign followed by a number represents the negation of that formula.
+
+
+#### Each line on **elems.txt** represents a formula, theres no need to write any logic OP.
+
+## Formulas must be written as followed:
 
 |Formula|Elems.txt|
 |:---:|:---:|
