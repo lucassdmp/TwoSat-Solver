@@ -12,7 +12,7 @@ def simplify(C : list) -> list:
         -------
         C -> A list containing the remaining formulas.
     '''
-    print("C to simplify: ", C) 
+    #print("C to simplify: ", C) 
     i = 0
     while i < len(C):
         if len(C[i]) == 1:
@@ -48,7 +48,7 @@ def twoSat(C : list):
             If the formula set is unsatisfiable.
     '''
     C = simplify(C)
-    print("C in twoSat:", C)
+    #print("C in twoSat:", C)
     
     while [] not in C and C != []:
         aux = C[0][0]
@@ -65,15 +65,13 @@ def twoSat(C : list):
     else: return True
            
 def main():
-    with open("elems.txt", "r") as file:
-        fSize = len(file.readlines())
-        i = 0
-        lista = []
-        file.seek(0)
-        while i < fSize:
-            lista.append(list(map(int, file.readline().split())))
-            i+=1
-        print(twoSat(lista))           
+    nAtoms, nC = map(int, input().split())
+    atomList = []
+    i = 0
+    while i < nC:
+        atomList.append(list(map(int, input().split())))
+        i+=1
+    print(twoSat(atomList))
 
 if __name__ == "__main__":
     main()
