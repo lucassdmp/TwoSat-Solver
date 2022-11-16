@@ -30,3 +30,11 @@
 
 
 ## (A single space between elements and a single **ENTER** between formulas)
+
+### File Example
+<pre>
+ 4 4
+-1 2
+ 5 -2
+ 3 -1
+ 4 -5
